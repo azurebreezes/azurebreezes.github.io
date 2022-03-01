@@ -8,3 +8,15 @@ function fixNav() {
         nav.classList.remove('active')
     }
 }
+
+const faLi = document.querySelector('.fa-li')
+window.addEventListener('hover', fixNav)
+
+function fixNav() {
+    if(window.scrollY > nav.offsetHeight + 150) {
+        nav.classList.add('active')
+    } else {
+        nav.classList.remove('active')
+    }
+}
+
