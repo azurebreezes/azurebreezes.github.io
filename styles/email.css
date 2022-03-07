@@ -98,6 +98,9 @@ body {
 
 textarea {
   resize: none;
+  background-color: rgba(78, 129, 192, 0.4);
+  color: azure;
+
 }
 
 .form-control input:focus + label span,

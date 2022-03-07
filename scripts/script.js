@@ -9,7 +9,7 @@ function fixNav() {
     }
 }
 
-const faLi = document.querySelector('.fa-li')
+// const faLi = document.querySelector('.fa-li')
 window.addEventListener('hover', fixNav)
 
 function fixNav() {
