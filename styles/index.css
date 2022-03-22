@@ -103,6 +103,11 @@ body {
   letter-spacing: 1px;
 }
 
+.container.content h3 a{
+  color: rgb(141, 94, 94);
+  text-decoration: none;
+}
+
 .content p {
   color: #555;
   line-height: 30px;
