@@ -3,17 +3,52 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="style/style.css" />
+        <link rel="stylesheet" href="styles/index.css" />
+        <script src="https://kit.fontawesome.com/c3b7a25184.js" crossorigin="anonymous"></script>
         <title>AzureBreezes</title>
     </head>
     <body>
         <nav class="nav">
             <div class="container">
-                <h1 class="logo"><a href="/index.html">AzureBreezes</a></h1>
+                <h1 class="logo"><a href="#">AzureBreezes</a></h1>
                 <ul>
-                    <li><a href="#"></a></li>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
+
+        <div class="intro">
+            <div class="container">
+                <h1>Welcome To My Website</h1>
+                <p>This place is my secret garden... or maybe not?!</p>
+            </div>
+        </div>
+        <section id="about" class="container content">
+            <h2>About</h2>
+            <br>
+            <p>My name is Changkai Yuan. I’m a software engineer at Telesair.</p>
+        </section>
+        <br>
+
+        <section id="work" class="container content">
+            <h2>School Project</h2>
+            <br>
+            <h3><a href="https://zihuazhang337.github.io/Monster_Hunter_Frontier-/final.html">Monster Hunter Frontier(2019)</a></h3>
+            <p>Utilize the Microsoft Project Malmo platform to develop an artificially intelligent agent in Minecraft to defeat the monster.</p>
+        </section>
+
+        <section id="contact" class="container contact">
+            <h2>Contact</h2>
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><a target="_blank" href="https://www.linkedin.com/in/changkai/"><i class="fa-brands fa-linkedin fa-2xl"></i></span>&nbsp;LinkedIn</a></li>
+                    <li><span class="fa-li"><a target="_blank" href="https://github.com/azurebreezes"><i class="fa-brands fa-github fa-2xl"></i></span>&nbsp;Github</a></li>
+                    <li><span class="fa-li"><a target="_blank" href="mailto:changkaiyuan0916@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></span>&nbsp;Email changkaiyuan0916@gmail.com</a></li>
+                </ul>
+        </section>
+
+        <script src="scripts/nav.js"></script>
     </body>
 </html>
