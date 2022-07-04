@@ -10,6 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 50px;
+  background-image: linear-gradient(to right, rgb(146, 159, 210), rgb(255, 255, 255));
 }
 
 .container {
