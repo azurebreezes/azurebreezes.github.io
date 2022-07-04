@@ -158,6 +158,10 @@ body {
   gap: 10px;
 }
 
+.info > h3 > span {
+  color: rgb(172, 60, 146);
+}
+
 /* Title of the card */
 .title {
   color: rgb(199, 142, 215);
